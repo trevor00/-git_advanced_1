@@ -6,6 +6,11 @@ def even_list(int_list: List[int]) -> List[int]:
 
 # Skeleton code for even_List
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
+    sum = 0
+    for i in range(0, len(even_int_list)):
+        sum += even_int_list[i] *  even_int_list[i] 
+    
+    return sum
     pass
 
 # Main function
